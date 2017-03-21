@@ -17,7 +17,7 @@
   lbox.style.width = '53px';
   lbox.style.height =  '23px';
   lbox.style.position = 'absolute';
-  lbox.style.opacity = 0;
+  lbox.style.opacity = 7;
   document.getElementsByTagName('body')[0].appendChild(lbox);
 
   window.addEventListener('mousemove', mouseMove, false);
